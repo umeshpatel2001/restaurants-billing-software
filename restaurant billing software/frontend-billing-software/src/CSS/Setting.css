@@ -1,0 +1,118 @@
+.setting {
+	/* border: 2px solid red; */
+	display: flex;
+	flex-direction: column;
+}
+.setting-buttons-div {
+	margin: 2rem 0rem 2rem 2rem;
+	display: flex;
+	/* border: 2 px solid blue; */
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: center;
+}
+.pending-bills-table{
+	padding: 3rem 0rem;
+	width: 810px;
+}
+.setting-buttons-div button {
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+	padding: 0.5rem;
+	width: 9rem;
+	justify-content: space-around;
+	border-radius: 0.2rem;
+	transition: 0.3s linear;
+	cursor: pointer;
+	background-color: rgb(207, 114, 71);
+	border: none;
+	font-size: 1rem;
+	color: white;
+}
+.setting-buttons-div button:hover {
+	background-color: rgb(238, 147, 28);
+	color: white;
+}
+.input-bills {
+	width: 50rem;
+	display: flex;
+	margin: 2rem 0rem 2rem 0rem;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+}
+.input-bills input {
+	padding: 0.5rem;
+	font-size: 1rem;
+	width: 15rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
+.input-bills button {
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+	padding: 0.5rem;
+	width: 8rem;
+	justify-content: space-around;
+	border-radius: 0.2rem;
+	transition: 0.3s linear;
+	cursor: pointer;
+	background-color: rgb(207, 114, 71);
+	border: none;
+	font-size: 1rem;
+	color: white;
+}
+.input-bills button:hover {
+	background-color: rgb(238, 147, 28);
+	color: white;
+}
+.waiter-table {
+	width: 300px;
+}
+.history {
+	margin: auto;
+	width: 80%;
+	margin-bottom: 4rem;
+}
+.info-bills {
+	display: flex;
+	flex-direction: column;
+}
+.info-bills-amount {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 1rem 0rem;
+}
+
+.discription {
+	margin: 1rem 0rem;
+	text-transform: capitalize;
+}
+
+.food-item-table {
+	padding: 2rem;
+}
+.food-item-table table {
+	border-collapse: collapse;
+}
+.food-item-table th {
+	padding: 15px;
+	text-align: left;
+
+	border-bottom: 1px solid #ddd;
+}
+.food-item-table td {
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+.food-item-table tr:hover {
+	background-color: rgb(175, 175, 50);
+}
+
+.food-item-table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}

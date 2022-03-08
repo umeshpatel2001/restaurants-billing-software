@@ -1,0 +1,86 @@
+.login-box {
+	width: 18rem;
+	margin: 5rem auto 15rem auto;
+	background-color: white;
+	padding: 1rem;
+	height: 18rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+    border-radius: 0.5rem;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.email-input {
+	display: flex;
+	align-items: center;
+}
+.password-input {
+	display: flex;
+	align-items: center;
+}
+
+.email-input input {
+	margin-left: 0.5rem;
+	padding: 0.4rem;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid black;
+	width: 76%;
+	font-size: 1rem;
+}
+
+.password-input input {
+	margin-left: 0.5rem;
+	padding: 0.4rem;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid black;
+	font-size: 1rem;
+	width: 76%;
+}
+
+.btns {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1rem;
+}
+.btns button {
+	width: 5rem;
+	transition: 0.3s linear;
+	border-radius: 0.3rem;
+	border: none;
+    color: #131a20;
+    padding: 0.3rem;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+		rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+		rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.btn-login {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+    background-color: #90caf7;
+    
+}
+.btn-login:hover{
+    background: #2e7d32;
+    color: white;
+}
+.btn-clear {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+    background-color: rgb(207, 114, 71);
+
+}
+.btn-clear:hover{
+    background-color: rgb(238, 147, 28);
+    color: white;
+
+}

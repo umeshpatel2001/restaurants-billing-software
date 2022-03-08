@@ -1,0 +1,51 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+	text-decoration: none;
+	color: #1e1e1f;
+}
+body {
+	background-color: #deb992;
+	background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.navbar {
+	background: #d48166;
+	height: 4rem;
+	display: flex;
+	/* border: 2px solid red; */
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	align-content: center;
+	padding: 0rem 3rem 0rem 2rem;
+}
+
+.img img {
+	width: 4rem;
+}
+.links {
+	display: flex;
+}
+.links div {
+	padding: 0rem 2rem 0rem 2rem;
+}
+.links a {
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 12px 20px;
+	border-radius: 4px;
+	transition: 0.3s linear;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+}
+.links a:hover {
+	background-color: rgb(238, 147, 28);
+	font-size: 14px;
+	font-size: 1rem;
+	color: #ffffff;
+}

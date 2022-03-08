@@ -1,0 +1,16 @@
+.footer {
+	/* border: 2px solid red; */
+	position: relative;
+	padding: 0.4rem;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #d48166;
+	color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+	text-align: center;
+}

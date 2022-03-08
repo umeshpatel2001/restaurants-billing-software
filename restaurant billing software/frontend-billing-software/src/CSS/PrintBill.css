@@ -1,0 +1,101 @@
+.bill-table {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+		rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	/* border: 2px solid red; */
+	display: flex;
+	margin: auto;
+	width: 39rem;
+	flex-direction: column;
+}
+.head-kot {
+	text-align: center;
+	margin: 3rem;
+}
+.table-kot {
+	padding: 1rem;
+}
+.table-info {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+.table-info h1 {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.table-info div {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.table-kot th,
+.table-kot td {
+	border-bottom: 2px solid rgb(139, 135, 135);
+}
+.table-kot table {
+	margin: auto;
+	width: 80%;
+	border-collapse: collapse;
+	text-transform: capitalize;
+}
+.table-kot th,
+.table-kot td {
+	padding: 15px;
+	text-align: left;
+	width: 1rem;
+}
+.table-kot tr:hover {
+	background-color: rgb(255, 255, 125);
+}
+.table-kot hr {
+	margin: 1rem;
+}
+.print-btn {
+	color: white;
+	padding: 0.5rem;
+	width: 8rem;
+	transition: 0.3s linear;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	background-color: rgb(207, 114, 71);
+	border: none;
+	border-radius: 0.2rem;
+	margin-left: 1rem;
+	margin: auto;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.print-btn:hover {
+	background-color: rgb(238, 147, 28);
+	color: white;
+}
+
+.status-inputs {
+	/* border: 2px solid red; */
+	display: flex;
+	justify-content: space-evenly;
+	padding: 1rem;
+	margin: 3rem;
+}
+
+.status-inputs div {
+	display: flex;
+	width: 9rem;
+	align-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.table-kot footer {
+	text-align: center;
+	margin: 1rem;
+}
